@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Audiowide|Cabin|Fjalla+One|PT+Sans+Narrow&display=swap');
+
+.admin-container .news-div .sub-news-div{
+    box-shadow: 3px 3px 10px #3c5474;
+    width: 75%;
+    margin: 3em auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.admin-container .news-div .sub-news-div h2 {
+    margin: 0;
+    padding: 0 0 20px 0;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.admin-container .news-div .sub-news-div .form-div form .form-group {
+    padding: 0 0 20px 0;
+    display: flex;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.admin-container .news-div .sub-news-div .form-div form .form-group #title {
+    margin-left: 80px;
+    width: 40%;
+}
+
+.admin-container .news-div .sub-news-div .form-div form .form-group #author {
+    margin-left: 68px;
+    width: 25%;
+}
+
+.admin-container .news-div .sub-news-div .form-div form .form-group #img {
+    margin-left: 71px;
+}
+
+.admin-container .news-div .sub-news-div .form-div form .form-group #desc1 {
+    margin-left: 33px;
+}
+
+.admin-container .news-div .sub-news-div .form-div form .form-group #desc2 {
+    margin-left: 33px;
+}
+
+.admin-container .news-div .sub-news-div .form-div form .form-group textarea {
+    width: 60em;
+    height: 12em;
+}

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Audiowide|Cabin|Fjalla+One|PT+Sans+Narrow&display=swap');
+
+.container .news-div {
+    display: flex;
+}
+
+.container .news-div div {
+    flex: 1;
+}
+
+.container .news-div .news-div-mid {
+    flex: 2;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.container .news-div .news-div-mid .title-div {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.container .news-div .news-div-mid .title-div h2 {
+    margin: 5px 0;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.container .news-div .news-div-mid .title-div p {
+    font-size: 200%;
+    margin: 0;
+    cursor: pointer;
+    transform: translate(0, -10px);
+}
+
+.container .news-div .news-div-mid .title-div .dropdown-div {
+    position: absolute;
+    background-color: #e8e1e1;
+    right: -9px;
+    top: 2em;
+    max-height: 1.5em;
+    border-radius: 3px;
+    display: none;
+}
+.container .news-div .news-div-mid .title-div .dropdown-div ul {
+    margin: 0;
+    padding: 0 2px;
+}
+
+.container .news-div .news-div-mid .title-div .dropdown-div ul li {
+    list-style: none;
+}
+
+.container .news-div .news-div-mid .title-div .dropdown-div ul li a {
+    font-size: 90%;
+    text-decoration: none;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #bf1b1b;
+}
+
+.container .news-div .news-div-mid .page-title {
+    margin: 0 0 3em 0;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.container .news-div .news-div-mid .publisher {
+    width: 100%;
+    height: 3em;
+}
+
+.container .news-div .news-div-mid .publisher .publisher-pic {
+    width: 3em;
+    height: 3em;
+    overflow: hidden;
+    border-radius: 50%;
+    float: left;
+}
+
+.container .news-div .news-div-mid .publisher .publisher-pic img {
+    width: 100%;
+}
+
+.container .news-div .news-div-mid .publisher .publisher-info {
+    float: left;
+    padding: 5px 0 0 10px;
+}
+
+.container .news-div .news-div-mid .publisher .publisher-info p {
+    margin: 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.container .news-div .news-div-mid .publisher .float-fix {
+    clear: both;
+}
+
+.container .news-div .news-div-mid .news-desc {
+    margin-bottom: 2em;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.container .news-div .news-div-mid .news-desc .news-pic-div {
+    max-height: 30em;
+    overflow: hidden;
+    margin: 1em 0 0 0;
+}
+
+.container .news-div .news-div-mid .news-desc .news-pic-div img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.container .news-div .news-div-right {
+    font-family: 'PT Sans Narrow', sans-serif;
+    box-sizing: border-box;
+}
+
+.container .news-div .news-div-right .sub-left {
+    text-align: center;
+}
+
+
+.container .news-div .news-div-right .sub-left .short-desc p a {
+    text-decoration: none;
+}

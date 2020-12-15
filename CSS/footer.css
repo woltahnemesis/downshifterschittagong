@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.container footer .footer-div {
+    max-width: 100%;
+    background-color: lightgray;
+    display: flex;
+    box-sizing: border-box;
+    height: 15em;
+    max-height: 15em;
+    background-image: linear-gradient(to right, #5d64a0, #6472ab, #6d81b5, #778fbf, #829dc9);
+}
+
+.container footer .footer-div .sub-footer {
+    padding: 2em;
+}
+
+.container footer .footer-div #middle-sub-footer {
+    border-right: thin solid white;
+    border-left: thin solid white;
+}
+
+.container footer .footer-div .sub-footer .footer-caption {
+    font-family: 'Righteous', cursive;
+    color: whitesmoke;
+    text-shadow: 0.5px 0.5px black;
+    text-align: left;
+}
+
+.container footer .footer-div .sub-footer p {
+    margin: 0;
+}
+
+.container footer .footer-div .sub-footer ul li {
+    list-style: none;
+    display: flex;
+    color: white;
+    padding: 5px 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.container footer .footer-div .sub-footer ul li div {
+    width: 15px;
+    margin: 0 5px 0 0;
+    box-sizing: border-box;
+}
+
+.container footer .footer-div .sub-footer ul li div img {
+    width: 100% 
+}
+
+.container footer .footer-div .sub-footer ul li div #email-icon {
+    padding-top: 2.45px;
+}
+
+.container footer .footer-div .sub-footer ul li div .iphone-icon {
+    padding-top: 2.45px;
+}
+
+.container footer .footer-div .sub-footer ul li p small a {
+    text-decoration: none;
+    color: white;
+}
+
+.container footer .copy-right {
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: #3c5474;
+    height: 3em;
+    color: white;
+}
+
+.container footer .copy-right p {
+    margin: 0 10px;   
+    transform: translate(0, 15px);
+}
+
+.container footer .copy-right .social-media-div {
+    display: flex;
+    margin: 0;
+    height: 55%;
+}
+
+.container footer .copy-right .social-media-div .sub-media-div {
+    width: 17px;
+    height: 17px;
+    padding: 0 5px;
+}
+
+.container footer .copy-right .social-media-div p,
+.container footer .copy-right .social-media-div .sub-media-div {
+    transform: translate(0, -5px);
+}
+
+.container footer .copy-right .social-media-div .sub-media-div img {
+    width: 100%;
+}

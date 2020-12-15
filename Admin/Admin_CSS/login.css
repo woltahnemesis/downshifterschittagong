@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Audiowide|Cabin|Fjalla+One|PT+Sans+Narrow&display=swap');
+
+body {
+    margin: 0;
+}
+
+.admin-login-div .login-box {
+    background-color: #3c5474;
+    width: 20%;
+    margin: 10em auto 0 auto;
+    box-sizing: border-box;
+}
+
+.admin-login-div .login-box h2 {
+    margin: 0;
+    padding: 1em 0;
+    text-align: center;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.admin-login-div .login-box form {
+    padding: 0 15px;
+}
+
+.admin-login-div .login-box form .form-group {
+    padding: 1em 0;
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.admin-login-div .login-box form .form-group #password {
+    margin-left: 4px;
+}
+
+.admin-login-div p a {
+    margin-left: 40%;
+    text-decoration: none;
+    font-family: 'PT Sans Narrow', sans-serif;
+}

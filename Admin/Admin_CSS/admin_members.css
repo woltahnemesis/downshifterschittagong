@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Audiowide|Cabin|Fjalla+One|PT+Sans+Narrow&display=swap');
+
+.members-table{
+    max-height: 35em;
+    overflow: scroll;
+/*        border: thin solid black;*/
+    width: 90%;
+    margin: 2em auto 0 auto;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+thead {
+    background-color: #3c5474;
+    color: white;
+}
+th, td{
+    padding: 10px;
+}
+td .update-a {
+    text-decoration: none;
+    color: deepskyblue;
+}
+td .delete-a {
+    text-decoration: none;
+    color: crimson;
+}    
+tr:nth-child(even){background-color: #f2f2f2}

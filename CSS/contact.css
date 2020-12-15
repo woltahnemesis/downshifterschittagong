@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Audiowide|Cabin|Fjalla+One|PT+Sans+Narrow&display=swap');
+
+.container .contact-div .sub-contact-div {
+    box-shadow: 3px 3px 5px #3c5474;
+    width: 50%;
+    margin: 10em auto;
+    display: flex;
+    box-sizing: border-box;
+    padding: 1em;
+}
+
+.container .contact-div .sub-contact-div .contact-form {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.container .contact-div .sub-contact-div .contact-form form {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.container .contact-div .sub-contact-div .contact-form form input,
+.container .contact-div .sub-contact-div .contact-form form textarea {
+    margin-top: 1em;
+    width: 100%;
+}
+
+.container .contact-div .sub-contact-div .contact-form form #submit {
+    width: auto;
+}
+
+.container .contact-div .sub-contact-div .contact-form form textarea {
+    height: 10em;
+}
+
+
+.container .contact-div .sub-contact-div  .contact-desc {
+    width: 50%;
+}
+
+.container .contact-div .sub-contact-div  .contact-desc h2 {
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.container .contact-div .sub-contact-div  .contact-desc p {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 120%;
+}

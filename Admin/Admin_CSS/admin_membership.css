@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Audiowide|Cabin|Fjalla+One|PT+Sans+Narrow&display=swap');
+
+.members-div {
+    padding-top: 5em;
+}
+
+.members-div .sub-membership-div {
+    margin-top: 3em;
+    box-shadow: 5px 5px 10px #3c5474;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.members-div .sub-membership-div h2{
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    padding: 10px 0 0 0;
+    margin: 0;
+}
+
+.members-div .sub-membership-div form .form-group{
+    padding: 8px 15px;
+}
+
+.members-div .sub-membership-div form .form-group label {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.members-div .sub-membership-div form #car-info-group {
+    display: flex;
+    align-items: center;
+}
+
+.members-div .sub-membership-div form #car-info-group label {
+    margin: 0 1.5em 0 0;
+}
+
+.members-div .sub-membership-div form .form-group label {
+    margin: 0 2em 0 0;
+}
+
+#fName {
+    margin-left: 20px;
+}
+
+#lName {
+    margin-left: 22px;
+}
+
+#year {
+    margin-left: 9px;
+}
+
+#email {
+    margin-left: 48px;
+}
+
+#address {
+    margin-left: 37px;
+    width: 40em;
+}
+
+.car-fill-div {
+    margin-left: 6px;
+}
+
+.go-back {
+    margin-left: 15%;
+}
+
+.go-back a {
+    text-decoration: none;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.go-back a:hover{
+    text-decoration: underline;
+}

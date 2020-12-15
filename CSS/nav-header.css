@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Audiowide|Cabin|Fjalla+One|PT+Sans+Narrow&display=swap');
+
+body {
+    margin: 0; 
+}
+
+.container .navigation-box img,
+.container .navigation-box .box-opacity,
+.qoute-div{
+    display: none;
+}
+
+.container .navigation-box {
+    background-color: #3c5474;
+    height: 3.5em;
+}
+
+.container .navigation-box .banner {
+    height: 100%;
+}
+
+.container .navigation-box .banner .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.container .navigation-box .banner .nav-bar p {
+    margin: 0;
+    margin-left: 10px;
+    font-family: 'Audiowide', cursive;
+    color: white;
+}
+
+.container .navigation-box .banner .nav-bar nav ul {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.container .navigation-box .banner .nav-bar nav ul li {
+    list-style: none;
+    padding: 0 5px;
+}
+
+.container .navigation-box .banner .nav-bar nav ul li a {
+    text-decoration: none;
+    font-family: 'Cabin', sans-serif;
+    color: white;
+}

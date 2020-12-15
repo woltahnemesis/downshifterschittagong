@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Audiowide|Cabin|Fjalla+One&display=swap');
+
+body {
+    margin: 0;
+}
+
+.admin-container header {
+    background-color: #3c5474;
+}
+
+.admin-container header .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+}
+
+.admin-container header .nav-bar p {
+    margin: 0;
+}
+
+.admin-container header .nav-bar nav ul {
+    display: flex;
+}
+
+.admin-container header .nav-bar nav ul li {
+    list-style: none;
+    padding: 0 5px;
+}
+
+.admin-container header .nav-bar nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    text-shadow: 0.3px 0.3px black;
+    font-family: 'Cabin', sans-serif;
+}
+
+.logo-p {
+    font-family: 'Audiowide', cursive;
+    color: whitesmoke;
+}

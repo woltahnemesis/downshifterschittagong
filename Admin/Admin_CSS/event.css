@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Audiowide|Cabin|Fjalla+One|PT+Sans+Narrow&display=swap');
+
+.admin-events .sub-admin-events {
+    margin: 3em auto 0 auto;
+    width: 50%;
+    box-shadow: 3px 3px 10px #3c5474;
+    box-sizing: border-box;
+}
+
+.admin-events .sub-admin-events h2 {
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 1em 0;
+}
+
+.admin-events .sub-admin-events form {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.admin-events .sub-admin-events form .form-group {
+    margin: 0 0 10px 1em;
+}
+
+.admin-events .sub-admin-events form .form-group textarea {
+    height: 10em;
+    width: 30em;
+    margin: 10px 0 0 0;
+}
+
+.admin-events .sub-admin-events form .form-group input {
+    margin: 10px 0 0 0;
+    width: 29%;
+}
+
+.admin-events .sub-admin-events form .form-group #submit {
+    margin: 0 0 1em 0;
+    width: auto;
+}

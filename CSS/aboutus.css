@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Audiowide|Cabin|Fjalla+One|PT+Sans+Narrow&display=swap');
+
+.leadership-div {
+    max-width: 100%;
+    margin: 0 0 6em 0;
+}
+
+.leadership-div .sub-leadership-div {
+    margin: 0 auto;
+    width: 100%;
+    width: 95%;
+}
+
+.leadership-div .sub-leadership-div .leadership-profile {
+    margin: 1em 3em;
+    width: 15em;
+    height: 20em;
+    float: left;
+}
+
+.leadership-div .sub-leadership-div .leadership-profile .leadership-img {
+    height: 10em;
+    width: 10em;
+    overflow: hidden;
+    border-radius: 100%;
+    border: thin solid #3c5474;
+    margin: 0 auto;
+    transform: translate(0, 75px);
+}
+
+.leadership-div .sub-leadership-div .leadership-profile div img {
+    width: 100%;
+}
+
+.leadership-div .sub-leadership-div .leadership-profile #img-div3 img {
+    width: 150%;
+    transform: translate(-5em, 0);
+}
+
+
+.leadership-div .sub-leadership-div .leadership-profile #img-div5 img {
+    width: 150%;
+    transform: translate(-1em, 0);
+}
+
+.leadership-div .sub-leadership-div .leadership-profile #img-div9 img {
+    width: 210%;
+    transform: translate(-5em, -7em);
+}
+
+.leadership-div .sub-leadership-div .leadership-profile #img-div12 img {
+    width: 170%;
+    transform: translate(-3em, 0);
+}
+
+
+
+.leadership-div .sub-leadership-div .leadership-profile .short-desc {
+    padding: 6em 0 10px 0;
+    text-align: center;
+    border: thin solid #3c5474;
+    box-shadow: 3px 3px 3px #3c5474;
+    font-family: 'PT Sans Narrow', sans-serif;
+    max-height: 100%;
+}
+
+.leadership-div .sub-leadership-div .leadership-profile .short-desc p strong {
+    margin: 0;
+}
+
+.leadership-div .sub-leadership-div .leadership-profile .short-desc p {
+    margin: 1em 0 0 0;
+    height: 30px;
+}
+
+.leadership-div .sub-leadership-div .float-fix {
+    clear: both;
+}

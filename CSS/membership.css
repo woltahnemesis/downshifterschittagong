@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.container .membership-div {
+    position: relative;
+}
+
+.container .membership-div .sub-membership-div{
+    background-color: lightgray;
+    margin: 10em auto 2em auto;
+    width: 40%;
+    padding: 0 2em;
+    box-sizing: border-box;
+    background-color: #829dc9;
+    box-shadow: 3px 3px #425075;
+}
+
+.container .membership-div .sub-membership-div h2 {
+    text-align: center;
+    padding: 1em 0 0 0;
+    font-family: 'Anton', sans-serif;
+    color: #3c4480;
+}
+.required-address-div {
+    margin: 5px 0;
+}
+
+.option-address-desc p {
+    margin: 0;
+    font-family: 'Cabin', sans-serif;
+    color: #242a54;
+}
+
+.form-group {
+    padding: 1em 0;
+    font-family: 'Cabin', sans-serif;
+    color: #242a54;
+}
+
+.car-fill-div {
+    padding: 5px 0;
+}
+
+.car-fill-div input {
+    margin: 5px 0;
+}
+
+#bottom-group {
+    padding-top: 1.5em;
+}
+
+.flex-termscond-div {
+    display: flex;
+    align-items: center;
+}
+
+.flex-termscond-div p {
+    padding-left: 5px;
+    margin: 0;
+    color: #242a54;
+}
+
+#go-back-p {
+    text-align: center;
+    margin: 0 0 8em 0;
+    font-family: 'Cabin', sans-serif;
+}
+
+.modal-div {
+    background-color: gray;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background: rgba(255,255,255, 0.8);
+    display: none;
+}
+
+.modal-div .modal-box {
+    background-color: white;
+    border: thin solid gray;
+    width: 60%;
+    height: 40em;
+    margin: 2em auto;
+    max-height: 40em;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-sizing: border-box;
+}
+
+.modal-div .modal-box .modal-banner {
+    background-image: linear-gradient(to right, #5d64a0, #6472ab, #6d81b5, #778fbf, #829dc9);
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.close-btn {
+    cursor: pointer;
+}
+
+.modal-div .modal-box .modal-banner p {
+    margin: 0;
+    color: whitesmoke;
+    size: 120%;
+    text-shadow: 0.5px 0.5px black;
+}
+
+.modal-div .modal-box .modal-banner p strong {
+    font-family: 'Righteous', cursive;
+}
+
+.modal-div .modal-box .modal-desc {
+    padding: 0 1em;
+    overflow: scroll;
+    max-height: 91%;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
